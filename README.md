@@ -19,19 +19,19 @@ run:
 The following options are available:
 
 ```man
--p 		: pipeline (exit 1 on KO)
+-p      : pipeline (exit 1 on KO)
 
--t		: timed (10.000 args)
+-t      : timed (10.000 args)
 
--r		: random tests (completely made up, feel free to extend tehm for yourself!)
+-r      : random tests (completely made up, feel free to extend tehm for yourself!)
 
--i		: input tests (very limited, also feel free to extend for yourself!)
+-i      : input tests (very limited, also feel free to extend for yourself!)
 
--b 		: benchmarking (amount of operations)
+-b      : benchmarking (amount of operations)
 
--a		: overwrite the amount of rounds int he config file for benchmarking
+-a      : overwrite the amount of rounds int he config file for benchmarking
 
--c X	: check X amount of arguments
+-c X    : check X amount of arguments
 ```
 
 When no options are selected you receive the complimentary full test I use on evaluations.
