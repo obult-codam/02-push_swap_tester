@@ -4,8 +4,12 @@ This project is created to alow a stand-alone import of my tester instead of onl
 
 ## Config
 
-In the tester.sh
-
+You can change the settigns in config.env for optimized testing.
+The options are:
+ - PS_LOCATION   : Which needs to point to your push swap folder without the "/" at the end.
+ - CHECKER       : Can be set when you want to use a different tester than the default mac_tester provided by 42.
+ - LOGFILE       : File / location to safe log on failure.
+ - ROUNDS        : Amount of roudns done for benchmarking (option -b) when the -a flag is not set.
 
 ## Usage
 
@@ -19,19 +23,19 @@ run:
 The following options are available:
 
 ```man
--p      : pipeline (exit 1 on KO)
+-p      : Pipeline (exit 1 on KO)
 
--t      : timed (10.000 args)
+-t      : Timed (10.000 args)
 
--r      : random tests (completely made up, feel free to extend tehm for yourself!)
+-r      : Random tests (completely made up, feel free to extend tehm for yourself!).
 
--i      : input tests (very limited, also feel free to extend for yourself!)
+-i      : Input tests (very limited, also feel free to extend for yourself!).
 
--b      : benchmarking (amount of operations)
+-b      : Benchmarking (amount of operations).
 
--a      : overwrite the amount of rounds int he config file for benchmarking
+-a      : Overwrite the amount of rounds in the config file for benchmarking.
 
--c X    : check X amount of arguments
+-c X    : Check X amount of arguments.
 ```
 
 When no options are selected you receive the complimentary full test I use on evaluations.
