@@ -6,10 +6,12 @@ This project is created to alow a stand-alone import of my tester instead of onl
 
 You can change the settigns in config.env for optimized testing.
 The options are:
+```man
  - PS_LOCATION   : Which needs to point to your push swap folder without the "/" at the end.
  - CHECKER       : Can be set when you want to use a different tester than the default mac_tester provided by 42.
  - LOGFILE       : File / location to safe log on failure.
  - ROUNDS        : Amount of roudns done for benchmarking (option -b) when the -a flag is not set.
+ ```
 
 ## Usage
 
