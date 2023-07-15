@@ -23,7 +23,7 @@ run:
 ./tester.sh [-ptrib] [-a ] [-c <amount-of-args>]
 ```
 
-### Options
+## Options
 
 The following options are available:
 
